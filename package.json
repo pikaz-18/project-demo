@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "npm install compoment-demo && vue-cli-service build"
   },
   "dependencies": {
     "compoment-demo": "git+https://github.com/pikaz-18/compoment-demo.git",
