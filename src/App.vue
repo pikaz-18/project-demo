@@ -1,28 +1,31 @@
+<!--
+ * @Author: zouzheng
+ * @Date: 2020-06-08 17:08:55
+ * @LastEditors: zouzheng
+ * @LastEditTime: 2020-06-09 09:30:11
+ * @Description: 这是XXX组件（页面）
+--> 
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <excel-com></excel-com>
+    <iframe-com></iframe-com>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import { ExcelCom, IframeCom } from 'compoment-demo'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ExcelCom,
+    IframeCom
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
 }
 </style>
