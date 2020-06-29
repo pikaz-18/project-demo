@@ -24,3 +24,5 @@
     "build": "npm install compoment-demo && vue-cli-service build"
   }
 ```
+
+项目说明文章：[https://juejin.im/post/5edf2f55f265da76cb3bfa81](https://juejin.im/post/5edf2f55f265da76cb3bfa81)
